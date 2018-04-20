@@ -1,0 +1,43 @@
+body {
+  /*  Color  */
+  /*  Dimension  */
+  /*  Format  */
+  /*  Font  */
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 0;
+}
+
+header {
+  grid-column: 1 / 13;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 77px;
+  background: rgba(236, 237, 238, .87);
+}
+
+.hdr-btn {
+/*  Color  */
+  background-color: transparent;
+
+/*  Dimension  */
+  height: 37px;
+  width: 80px;
+
+/*  Format  */
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+
+/*  Font  */
+  font-size: 20px;
+
+}
+
+.btn-new,
+.hdr-btn:hover {
+  background-color: #C54069;
+  color: white;
+  border-radius: 3px;
+}
