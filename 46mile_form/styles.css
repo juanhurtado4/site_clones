@@ -1,20 +1,26 @@
 body {
-  /*  Color  */
-  /*  Dimension  */
-  /*  Format  */
   /*  Font  */
+  margin: 0;
+
+  /*  Position  */
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  margin: 0;
+
 }
 
 header {
-  grid-column: 1 / 13;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  height: 77px;
+  /*  Color  */
   background: rgba(236, 237, 238, .87);
+
+  /*  Position  */
+  align-items: center;
+  display: flex;
+  grid-column: 1 / 13;
+  justify-content: flex-end;
+
+  /*  Dimension  */
+  height: 77px;
+
 }
 
 .hdr-btn {
@@ -37,7 +43,11 @@ header {
 
 .btn-new,
 .hdr-btn:hover {
+  /*  Color  */
   background-color: #C54069;
   color: white;
+
+  /*  Format  */
   border-radius: 3px;
+  
 }
