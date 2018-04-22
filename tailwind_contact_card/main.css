@@ -1,6 +1,8 @@
 p,
 h1 {
+/*  Dimension  */
   margin: 10px 0px;
+
 }
 
 body {
@@ -19,7 +21,7 @@ body {
 }
 
 .container {
-/*  Color  */
+/*  Animation  */
   animation-name: moveLeft;
   animation-duration: 2s;
 
@@ -32,24 +34,25 @@ body {
   padding-top: 20px;
   width: 724px;
 
+/*  Format  */
+  border-radius: 10px;
+
 /*  Position  */
   align-items: flex-start;
   display: flex;
-
-/*  Format  */
-  border-radius: 10px;
 
 }
 
 img {
 /*  Dimensions  */
-  border-radius: 200px;
-  margin-left: 20px;
   height: 144px;
+  margin-left: 20px;
+
+/*  Format  */
+border-radius: 200px;
 
 }
 
-/* img { */
 img,
 .container-info {
 /*  Dimension  */
@@ -59,8 +62,8 @@ img,
 
 .container-info {
 /*  Font  */
-  line-height: 1.25em;
   font-family: sans-serif;
+  line-height: 1.25em;
 
 /*  Dimension  */
   margin-top: 10px;
@@ -68,8 +71,12 @@ img,
 }
 
 .container-info p {
+  /*  Color  */
   color: #8995A0;
+
+  /*  Font  */
   font-weight: normal;
+
 }
 
 .container-info h1 {
@@ -100,13 +107,21 @@ button {
 @keyframes moveLeft {
 
   0% {
+  /*  Color  */
     opacity: 0;
+
+  /*  Position  */
     transform: translateY(100px);
+
   }
 
   100% {
+    /*  Color  */
     opacity: 1;
+    
+    /*  Position  */
     transform: translate(0);
+
   }
 
 }
