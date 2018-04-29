@@ -104,6 +104,13 @@ button {
 
 }
 
+button:hover {
+  /* Color */
+  background-color: #8C67DB;
+  color: #fff;
+
+}
+
 @keyframes moveLeft {
 
   0% {
@@ -118,7 +125,7 @@ button {
   100% {
     /*  Color  */
     opacity: 1;
-    
+
     /*  Position  */
     transform: translate(0);
 
