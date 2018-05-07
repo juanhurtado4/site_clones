@@ -1,0 +1,40 @@
+body {
+  height: 800px;
+  margin: 0;
+
+}
+
+header {
+  height: 780px;
+  background-size: cover;
+  color: white;
+  text-transform: uppercase;
+
+  background-image: linear-gradient(
+                      to bottom,
+                      rgba(0,0,0,.6),
+                      rgba(0,0,0,.8)),
+    url(http://jorgecamposcodes.com/omnifood/css/img/hero-min.jpg);
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-links li {
+  margin-right: 1em;
+
+}
+
+.logo {
+  height: 130px;
+
+}
