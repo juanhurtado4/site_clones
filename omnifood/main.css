@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  height: 780px;
+  height: 980px;
   background-size: cover;
   color: white;
   text-transform: uppercase;
@@ -21,20 +21,39 @@ header {
 nav {
   display: flex;
   justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 1em;
+
+}
+
+.logo {
+  height: 150px;
+
 }
 
 .nav-links {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+  font: 200 17.5px sans-serif;
+  padding-top: 1.5em;
+  margin-left: 100px;
+
 }
 
 .nav-links li {
-  margin-right: 1em;
+  margin-right: 2.2em;
 
 }
 
-.logo {
-  height: 130px;
+header h1 {
+  font: 200 40px sans-serif;
+  letter-spacing: .07em;
+  margin-top: 4em;
+  margin-left: 3.8em;
 
+}
+
+header h1 span {
+  display: block;
 }
