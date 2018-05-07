@@ -2,19 +2,20 @@ body {
   height: 800px;
   margin: 0;
 
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(
+    to top right,
+    rgba(0,0,0,.6),
+    rgba(0,0,0,.8)),
+    url(http://jorgecamposcodes.com/omnifood/css/img/hero-min.jpg);
+
 }
 
 header {
   height: 980px;
-  background-size: cover;
   color: white;
   text-transform: uppercase;
-
-  background-image: linear-gradient(
-                      to bottom,
-                      rgba(0,0,0,.6),
-                      rgba(0,0,0,.8)),
-    url(http://jorgecamposcodes.com/omnifood/css/img/hero-min.jpg);
 
 }
 
@@ -56,5 +57,40 @@ nav {
 
 .header-txt-container span {
   display: block;
-  
+
+}
+
+.btn {
+  font-size: 17.5px;
+  font-weight: normal;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #E47D31;
+  padding: .8em 2em;
+  border: 1px solid #E47D31;
+  border-radius: 100px;
+  text-transform: capitalize;
+  letter-spacing: 1.3px;
+  transition: all .2s;
+
+}
+
+.btn-cta,
+.btn:hover {
+  background-color: #E47D31;
+  color: #fff;
+
+}
+
+.btn-cta:hover {
+  background-color: #CD702C;
+
+
+}
+
+header .btn:first-of-type {
+  margin-left: 8.8em;
+  margin-right: 1em;
+  display: inline-block;
+
 }
