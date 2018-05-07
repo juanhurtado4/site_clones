@@ -46,7 +46,7 @@ nav {
 
 }
 
-header h1 {
+.header-txt-container {
   font: 200 40px sans-serif;
   letter-spacing: .07em;
   margin-top: 4em;
@@ -54,6 +54,7 @@ header h1 {
 
 }
 
-header h1 span {
+.header-txt-container span {
   display: block;
+  
 }
